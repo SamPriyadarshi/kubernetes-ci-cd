@@ -3,7 +3,7 @@ const app = express();
 const port = 8080;
 
 app.get('/', (req, res) => {
-  res.send('Hello from My App!');
+  res.send('Hello from My App! This is running on Google Kubernetes Engine');
 });
 
 app.listen(port, () => {
